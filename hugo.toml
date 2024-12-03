@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Web Page"
 theme = "ananke"
+
+[build]
+publish = "public"
+command = "hugo"
